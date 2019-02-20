@@ -1,0 +1,56 @@
+[
+    {
+        "keys": ["ctrl+alt+v"],
+        "command": "sublime_tmpl",
+        "args":
+        {
+            "type": "vue"
+        }
+    },
+    {
+        "keys": ["shift+alt+f"],
+        "command": "htmlprettify"
+    },
+    {
+        "keys": ["ctrl+shift+s"],
+        "command": "save_all"
+    },
+    {
+        "keys": ["ctrl+alt+p"],
+        "command": "autoprefixer"
+    },
+    {
+        "keys": ["ctrl+alt+l"],
+        "command": "htmlprettify"
+    },
+    // 代码提示
+    {
+        "keys": ["alt+space"],
+        "command": "auto_complete"
+    },
+    {
+        "keys": ["alt+space"],
+        "command": "replace_completion_with_auto_complete",
+        "context": [
+        {
+            "key": "last_command",
+            "operator": "equal",
+            "operand": "insert_best_completion"
+        },
+        {
+            "key": "auto_complete_visible",
+            "operator": "equal",
+            "operand": false
+        },
+        {
+            "key": "setting.tab_completion",
+            "operator": "equal",
+            "operand": true
+        }]
+    },
+    // 跳转到函数定义
+    {
+        "keys": ["ctrl+alt+d"],
+        "command": "goto_definition"
+    }
+]

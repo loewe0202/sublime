@@ -1,0 +1,17 @@
+# sublime
+.sublime/
+
+# Backup
+Backup/
+
+# Cache
+Cache/
+
+# Index
+Index/
+
+# Lib
+Lib/
+
+# Local
+Local/

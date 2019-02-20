@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		"swan",
+		"axml",
+		"wxml",
+		"ttml"
+	]
+}
