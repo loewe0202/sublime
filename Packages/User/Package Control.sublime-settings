@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Alignment",
 		"AutoFileName",
 		"Autoprefixer",
@@ -42,7 +43,6 @@
 		"Modific",
 		"Monokai Dark",
 		"Nodejs",
-		"One Dark Material - Theme",
 		"Open In Browser",
 		"Package Control",
 		"PackageResourceViewer",
@@ -60,8 +60,6 @@
 		"Terminal",
 		"TerminalView",
 		"Theme - Afterglow",
-		"Theme - Dark Material",
-		"Theme - Monokai+",
 		"TrailingSpaces",
 		"Vue Syntax Highlight",
 		"VueFormatter",
