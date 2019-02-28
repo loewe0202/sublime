@@ -12,6 +12,10 @@
         "command": "htmlprettify"
     },
     {
+        "keys": ["ctrl+alt+s"],
+        "command": "format_eslint"
+    },
+    {
         "keys": ["ctrl+shift+s"],
         "command": "save_all"
     },
